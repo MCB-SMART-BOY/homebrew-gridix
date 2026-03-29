@@ -18,7 +18,7 @@ class Gridix < Formula
 
   on_linux do
     url "https://github.com/MCB-SMART-BOY/Gridix/releases/download/v3.3.1/gridix-linux-x86_64.tar.gz"
-    sha256 "93.3.168d1500ed6a9ef9c75a044e0fc2554c770ae284f6eddf968df767475d1"
+    sha256 "67249f4ab0e4dc700d5e21564ecb5049b1f6eed1db0a5a5af33dc62b62440c6a"
   end
 
   def install
