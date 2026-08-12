@@ -1,16 +1,14 @@
+# Homebrew Formula for Gridix
+# Repository: https://github.com/MCB-SMART-BOY/homebrew-gridix
+
 class Gridix < Formula
-  desc "Fast, secure, cross-platform database management tool with Helix/Vim keybindings"
+  desc "Fast, secure database management tool with Helix/Vim keybindings"
   homepage "https://github.com/MCB-SMART-BOY/Gridix"
   version "7.2.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/MCB-SMART-BOY/Gridix/releases/download/v7.2.0/gridix-macos-arm64.tar.gz"
-      sha256 "8ff8e2c1c7b294430e6dbd32462230b48379c5a2f3a194a204ab6ce51ab6cae0"
-    end
-    on_intel do
-      # Intel Mac users can use ARM build with Rosetta 2
       url "https://github.com/MCB-SMART-BOY/Gridix/releases/download/v7.2.0/gridix-macos-arm64.tar.gz"
       sha256 "8ff8e2c1c7b294430e6dbd32462230b48379c5a2f3a194a204ab6ce51ab6cae0"
     end
